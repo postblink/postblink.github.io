@@ -3,10 +3,27 @@ description = "🐾 Dog Enthusiast 🤓 Nerd Proponent 🌽 Iowa Blue Dot"
 keywords = "Lucas Boyles, Postblink, twitch, gaming, tech, nerd, music, Iowa, midwest, blue, blue dot"
 image = "ai-me-sketch.jpg"
 theme = "dark"
-primary_color = "#86f9aa"
+primary_color = "#324b50"
 text_align = "center"
 gtag_id = "GTM-MLMRBQ5"
 base_url = "https://postblink.github.io"
+
+<!-- Add a placeholder for the Twitch embed -->
+    <div id="twitch-embed"></div>
+
+    <!-- Load the Twitch embed JavaScript file -->
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 854,
+        height: 480,
+        channel: "monstercat",
+        // Only needed if this page is going to be embedded on other websites
+        parent: ["embed.example.com", "othersite.example.com"]
+      });
+    </script>
 
 [[sections]]
 title = "Links"
