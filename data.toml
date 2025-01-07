@@ -20,8 +20,5 @@ url = "https://twitch.tv/postblink"
 title = "YouTube"
 url = "https://www.youtube.com/@postblink"
 [[sections.items]]
-title = "Instagram"
-url = "https://instagram.com/postblink"
-[[sections.items]]
 title = "Writing"
 url = "https://postblink.live"
