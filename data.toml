@@ -9,10 +9,6 @@ gtag_id = "GTM-MLMRBQ5"
 base_url = "https://postblink.github.io"
 
 [[sections]]
-title = "Twitch"
-embed_url = "https://player.twitch.tv/?channel=postblink"
-
-[[sections]]
 title = "Links"
 description = "Find Me On"
 direction = "row"
@@ -26,3 +22,5 @@ url = "https://www.youtube.com/@postblink"
 [[sections.items]]
 title = "Writing"
 url = "https://postblink.live"
+title = "Twitch"
+embed_url = "https://player.twitch.tv/?channel=postblink"
