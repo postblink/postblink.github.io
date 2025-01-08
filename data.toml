@@ -10,7 +10,7 @@ base_url = "https://postblink.github.io"
 
 [[sections]]
 title = "Twitch"
-<iframe src="https://player.twitch.tv/?channel=postblink&parent=www.example.com" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+embed_url = "https://player.twitch.tv/?channel=postblink"
 
 [[sections]]
 title = "Links"
