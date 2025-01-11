@@ -14,8 +14,6 @@ description = "You can find me at..."
 direction = "column"
 item_style = "outline"
 [[sections.items]]
-embed_url = "https://www.youtube.com/watch?v=CJp1_NbMG48"
-[[sections.items]]
 title = "Bluesky"
 url = "https://bsky.app/profile/lucasj.net"
 [[sections.items]]
